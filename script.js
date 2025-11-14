@@ -21,13 +21,13 @@ function verificar() {
         img.setAttribute('src', 'meninocrianca.png')
     } else if (idade < 21) {
         //jovem
-        img.setAttribute('src', 'homemvinteanos.png')
+        img.setAttribute('src', 'homem20anos.png')
     } else if (idade < 50) {
         //adulto
-        img.setAttribute('src', 'homemquarentaanos.png')
+        img.setAttribute('src', 'homem40anos.png')
     } else{
         //idoso
-        img.setAttribute('src', 'homemoitentaanos.png')
+        img.setAttribute('src', 'homem80anos.png')
     }
 } else if (fsex[1].checked) { // Mulher
     gênero = 'Mulher'
@@ -36,13 +36,13 @@ function verificar() {
         img.setAttribute('src', 'meninacrianca.png')
     } else if (idade < 21) {
         //jovem
-        img.setAttribute('src', 'mulhervinteanos.png')
+        img.setAttribute('src', 'mulher20anos.png')
     } else if (idade < 50) {
         //adulto
-        img.setAttribute('src', 'mulherquarentaanos.png')
+        img.setAttribute('src', 'mulher40anos.png')
     } else {
         //idoso
-        img.setAttribute('src', 'mulheroitentaanos.png')
+        img.setAttribute('src', 'mulher80anos.png')
     }
 
 }
@@ -53,3 +53,4 @@ function verificar() {
 }
 
 }
+
